@@ -38,12 +38,15 @@ namespace TMS_Project
             int a=cmd.ExecuteNonQuery();
             if(a>0)
             {
-                Response.Write("<script>alert('Form has been submitted successfully')</script>");
-            ResetContact();  
+                // Response.Write("<script>alert('Form has been submitted successfully')</script>");
+                //Response.Write("<script>SuccessContact();</script>");
+                ScriptManager.RegisterStartupScript(this, GetType(), "PopUp", "SuccessContact();", true);
+                ResetContact();  
             }
             else
             {
-                Response.Write("<script>alert('Form submission failed')</script>");
+                //Response.Write("<script>alert('Form submission failed')</script>");
+                ScriptManager.RegisterStartupScript(this, GetType(), "PopUp", "ErrorContact();", true);
             }
             con.Close();
         }

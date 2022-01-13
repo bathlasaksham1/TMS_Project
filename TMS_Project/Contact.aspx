@@ -1,5 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TMSSite1.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="TMS_Project.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<script type="text/javascript">
+    function SuccessContact() {
+        Swal.fire(
+            'Success!',
+            'Form has been submitted successfully',
+            'success'
+        )
+    }
+    function ErrorContact() {
+        Swal.fire(
+            'Failed!',
+            'Form submisssion failed',
+            'error'
+        )
+    }
+</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
