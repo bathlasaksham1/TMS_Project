@@ -82,6 +82,7 @@
     <Content Include="dist\sweetalert2.min.js" />
     <Content Include="student\Student_Index.aspx" />
     <Content Include="student\Student_Logout.aspx" />
+    <Content Include="student\View_Tutors.aspx" />
     <Content Include="Student_Login.aspx" />
     <Content Include="Student_Signup.aspx" />
     <Content Include="Tutor\Tutor_Index.aspx" />
@@ -168,6 +169,13 @@
     </Compile>
     <Compile Include="student\Student_Logout.aspx.designer.cs">
       <DependentUpon>Student_Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\View_Tutors.aspx.cs">
+      <DependentUpon>View_Tutors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\View_Tutors.aspx.designer.cs">
+      <DependentUpon>View_Tutors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Student_Login.aspx.cs">
       <DependentUpon>Student_Login.aspx</DependentUpon>
