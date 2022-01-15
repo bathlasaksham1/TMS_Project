@@ -7,14 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace TMS_Project.Tutor
 {
-    public partial class Tutor_Index : System.Web.UI.Page
+    public partial class Tutor_Logout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["tutor_username"]==null)
-            {
+            if(Session["tutor_username"]!=null)
+                {
+                Session["tutor_username"] = null;
+               // Session.Abandon();
                 Response.Redirect("~/Tutor_Login.aspx");
-            }
+                 }
         }
     }
 }

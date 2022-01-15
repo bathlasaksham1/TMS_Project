@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TMSSite1.Master" AutoEventWireup="true" CodeBehind="Student_Login.aspx.cs" Inherits="TMS_Project.Student_Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TMSSite1.Master" AutoEventWireup="true" CodeBehind="Tutor_Login.aspx.cs" Inherits="TMS_Project.Tutor_login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <br />
+
+     <br />
      <div class="container">
 
             <div class="row">
@@ -13,7 +14,7 @@
                     <br />
                     <div class="jumbotron text-swal2-center text-white bg-primary">
                         <br />
-                        <h2>Student Login</h2>
+                        <h2>Tutor Login</h2>
 
                     </div>
 
@@ -23,15 +24,15 @@
                     <asp:TextBox ID="PasswordTxt" TextMode="Password" placeholder="Enter Password" CssClass="form-control" runat="server"></asp:TextBox>
                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="PasswordTxt" ForeColor="Red" SetFocusOnError="true" Display="Dynamic" runat="server" ErrorMessage="Password is Required"></asp:RequiredFieldValidator>
                     <br />
-                    <asp:Button ID="Student_LoginBtn" OnClick="Student_LoginBtn_Click" runat="server" Text="Login"  CssClass="btn btn-primary btn-block" />
-                  <div class="text-center">
-                       <a href="Tutor_Login.aspx" class="text-center">Login As Tutor</a>
+                    <asp:Button ID="Tutor_LoginBtn" runat="server" Text="Login" Onclick="Tutor_LoginBtn_Click" CssClass="btn btn-primary btn-block" />
+                     <div class="text-center">
+                       <a href="Student_Login.aspx" class="text-center">Login As Student</a>
                   </div>
+                    
                     <br />
                 </div>
 
             </div>
         </div>
         <br />
-
 </asp:Content>
