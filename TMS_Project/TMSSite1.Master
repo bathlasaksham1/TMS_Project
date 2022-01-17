@@ -7,7 +7,7 @@
     <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Moderna Bootstrap Template - Index</title>
+  <title>First Class Learning - Inde x</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -57,7 +57,7 @@
     <div class="container">
 
       <div class="logo float-left">
-        <h1 class="text-light"><a href="Default.aspx"><span>Moderna</span></a></h1>
+        <h2 class="text-light"><a href="Default.aspx"><span>First Class Learning</span></a></h2>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -66,30 +66,12 @@
         <ul>
           <li class="active"><a href="Default.aspx">Home</a></li>
           <li><a href="About.aspx">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <%--<li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>--%>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
+         <%-- <li><a href="services.html">Services</a></li>--%>
+       
+        <%--  <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>--%>
+
           <li><a href="Contact.aspx">Contact Us</a></li>
-            <li><a href="Student_Signup.aspx" class="btn btn-info mx-2">SignUp</a></li>
-            <li><a href="Student_Login.aspx" class="btn btn-info mx-2">Login</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -107,8 +89,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4> Quote of the Day</h4>
+            <p>The struggle you’re in today is developing the strength you need tomorrow.</p>
           </div>
           <div class="col-lg-6">
            <%-- <form action="" method="post">
@@ -126,45 +108,47 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Default.aspx">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="About.aspx">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Contact.aspx">Contact Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <%--  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>--%>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"> Distance Learning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Personal Tutor</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Paid courses</a></li>
+              <%--<li><i class="bx bx-chevron-right"></i> <a href="#">Special Batch</a></li>--%>
+                 <li><i class="bx bx-chevron-right"></i> <a href="#">Demo Classes</a></li>
+             
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Village: Noorpur,VPO:Naukerian <br>
+              Fazilka,Punjab<br>
+              India<br><br />
+              <strong>Phone:</strong> +91 98 559 14190<br>
+              <strong>Email:</strong> bathlasaksham1@gmail.com<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Moderna</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <h3>About First Class Learning</h3>
+            <p>If you’re looking to gain knowledge & want to increase productivity, you are at right place.In addition, you may find new passions or new areas of interest within your field of study. </p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.instagram.com/bathlasaksham/" class="instagram"><i class="bx bxl-instagram"></i></a>
+               <a href="https://www.facebook.com/saksham.bathla.923/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="https://www.linkedin.com/in/saksham-bathla-412280101/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+           
             </div>
           </div>
 
@@ -174,14 +158,14 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Moderna</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>First Class Learning</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Saksham Bathla</a>
       </div>
     </div>
   </footer><!-- End Footer -->

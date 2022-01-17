@@ -9,27 +9,33 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Moderna</span></h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>First Class Learning</span></h2>
+           
+          <%--<p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>--%>
+         <p class="animate__animated animate__fadeInUp"><b>Education is the most powerful weapon which you can use to change the world </b><br />There are many ways you can make an impact on the world. But there is no greater impact that you can make than spreading education, and empowering people who’ll empower and teach people, who, in turn, will empower and teach more..</p>
+            <%--<a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>--%>
         </div>
       </div>
 
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+            <h2 class="animate__animated animate__fadeInDown">The New Revolution <span>in Education </span></h2>
+          <%--<h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>--%>
+          <%--<p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>--%>
+         
+            <p class="animate__animated animate__fadeInUp"><b>An investment in knowledge pays the best interest</b><br />We said it in our vision too. When you educate people, you take down barriers. You help them see what it’s like in other situations, cultures and countries. You create a world that is more tolerant to differences and accepting of all.</p>
+           
+            <%--<a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>--%>
         </div>
       </div>
 
       <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <h2 class="animate__animated animate__fadeInDown">Dreams don't work unless you do</h2>
+           <p class="animate__animated animate__fadeInUp"><b>Never allow a person to tell you no who doesn’t have the power to say yes</b><br />Don’t aim for success if you want it, just do what you love and believe in and it will come naturally</p>
+          <%--<a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>--%>
         </div>
       </div>
 
@@ -46,7 +52,7 @@
     </div>
   </section><!-- End Hero -->
       <!-- ======= Services Section ======= -->
-    <section class="services">
+    <%--<section class="services">
       <div class="container">
 
         <div class="row">
@@ -85,7 +91,7 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>--%><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
     <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
@@ -118,7 +124,7 @@
     </section><!-- End Why Us Section -->
 
     <!-- ======= Features Section ======= -->
-    <section class="features">
+  <%--  <section class="features">
       <div class="container">
 
         <div class="section-title">
@@ -195,6 +201,6 @@
         </div>
 
       </div>
-    </section><!-- End Features Section -->
+    </section>--%><!-- End Features Section -->
 
 </asp:Content>

@@ -10,8 +10,10 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Dashboard - SB Admin</title>
-     <link href="~/assestrs/vendor/bootstrap/css/bootstrap.min.css" />
-     <link href="~/admin/admin_dashboard/dist/css/styles.css" rel="stylesheet" />    
+
+     <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" />
+        <link href="~/admin/admin_dashboard/dist/css/styles.css" rel="stylesheet" />
+        
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
