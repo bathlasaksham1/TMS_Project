@@ -72,6 +72,9 @@
           <li><a href="blog.html">Blog</a></li>--%>
 
           <li><a href="Contact.aspx">Contact Us</a></li>
+             <li><a href="Student_Signup.aspx" class="btn btn-info mx-2">SignUp</a></li>
+            <li><a href="Student_Login.aspx" class="btn btn-info mx-2">Login</a></li>
+             <li><a href="admin/Admin_Login.aspx" class="btn btn-danger mx-2">Admin</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 

@@ -94,7 +94,7 @@
     </section>--%><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+    <%--<section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
       <div class="container">
 
         <div class="row">
@@ -121,15 +121,15 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>--%><!-- End Why Us Section -->
 
     <!-- ======= Features Section ======= -->
-  <%--  <section class="features">
+    <section class="features">
       <div class="container">
 
         <div class="section-title">
-          <h2>Features</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Our Vision</h2>
+          <p>Many of life’s failures are people who did not realize how close they were to success when they gave up.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -137,14 +137,13 @@
             <img src="assets/img/features-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-4">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Whether you think you can or you think you can’t, you’re right</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Most of those who have succeeded in life can trace their success back to the essential education they obtained from parents, teachers and/ or friends.
             </p>
             <ul>
-              <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="icofont-check"></i>Dream big and dare to fail..</li>
+              <li><i class="icofont-check"></i>The mind is everything. What you think you become.</li>
             </ul>
           </div>
         </div>
@@ -154,20 +153,17 @@
             <img src="assets/img/features-2.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Corporis temporibus maiores provident</h3>
+            <h3>Keep calm and carry on.</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Do all the good you can, for all the people you can, in all the ways you can, as long as you can.
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+             Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off.
             </p>
           </div>
         </div>
 
-        <div class="row" data-aos="fade-up">
+       <%-- <div class="row" data-aos="fade-up">
           <div class="col-md-5">
             <img src="assets/img/features-3.svg" class="img-fluid" alt="">
           </div>
@@ -198,9 +194,9 @@
               culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
-        </div>
+        </div>--%>
 
       </div>
-    </section>--%><!-- End Features Section -->
+    </section><!-- End Features Section -->
 
 </asp:Content>

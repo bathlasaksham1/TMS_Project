@@ -56,22 +56,22 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">232</span>
+            <span data-toggle="counter-up">8</span>
             <p>Clients</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">521</span>
+            <span data-toggle="counter-up">9</span>
             <p>Projects</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,463</span>
+            <span data-toggle="counter-up">565</span>
             <p>Hours Of Support</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">15</span>
+            <span data-toggle="counter-up">3</span>
             <p>Hard Workers</p>
           </div>
 
@@ -86,10 +86,12 @@
 
         <div class="section-title">
           <h2>Our Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>It is very difficult for people to believe the simple fact that every persecutor was once a victim. Yet it should be very obvious that someone who was allowed to feel free and strong from childhood does 
+              not have the need to humiliate another person.It takes many good deeds to build a good reputation, and only one bad one to lose it.
+</p>
         </div>
 
-        <div class="skills-content">
+<%--        <div class="skills-content">
 
           <div class="progress">
             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -115,7 +117,7 @@
             </div>
           </div>
 
-        </div>
+        </div>--%>
 
       </div>
     </section><!-- End Our Skills Section -->
